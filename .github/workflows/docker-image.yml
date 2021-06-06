@@ -37,4 +37,4 @@ jobs:
           platforms: linux/arm64
           push: true
           tags: |
-            ghcr.io/burturt/images:java-${{ matrix.tag }}-arm64
+            ghcr.io/burturt/pterodactyl-images-arm64:java-${{ matrix.tag }}-arm64
